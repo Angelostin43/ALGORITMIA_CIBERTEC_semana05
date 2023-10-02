@@ -1,0 +1,14 @@
+package semana_05;
+
+public class ArregloSueldos {
+	private double[] sueldo = {2400.5, 800.4, 1500.2, 1000.3, 4700.1, 600.0, 3300.8, 2600.6, 5100.9, 2000.7};
+	
+	public int tamanio(){
+	    return sueldo.length;
+	}
+	
+	public double obtener(int i){
+		return sueldo[i];
+	}
+
+}

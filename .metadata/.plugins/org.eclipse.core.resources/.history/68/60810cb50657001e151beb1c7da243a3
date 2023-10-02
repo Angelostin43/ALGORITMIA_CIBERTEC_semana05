@@ -1,0 +1,41 @@
+package semana_05;
+
+public class ArregloEdades {
+	private int[] edad = {27, 22, 13, 12, 25, 11, 29, 70, 15, 21};
+	
+	public int tamanio() {
+		return edad.length;
+	}
+	
+	public int obtener(int i) {
+		return edad[i];
+	}	
+	
+	public double edadPromedio() {
+		int suma = 0;
+		for(int i=0;i<tamanio();i++){
+			suma += edad[i];
+		}
+		return suma/tamanio();
+	}
+	
+	public int edadMayor(){
+		int mayor = 0;
+		for(int i=0;i<tamanio();i++){
+			if(mayor<edad[i]){
+				mayor = edad[i];
+			}
+		}
+		return mayor;
+	}
+	
+	public int edadMenor
+		int mayor = 0;
+		for(int i=0;i<tamanio();i++){
+			if(mayor<edad[i]){
+				mayor = edad[i];
+			}
+		}
+		return mayor;
+	}
+} 
